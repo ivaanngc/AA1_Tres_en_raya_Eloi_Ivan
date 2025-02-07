@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 #include "defines.h"
 #include "tablero.h"
 #include "jugada.h"
@@ -26,4 +24,4 @@ int main() {
     }
 	return 0;
 }
->>>>>>> Stashed changes
+
