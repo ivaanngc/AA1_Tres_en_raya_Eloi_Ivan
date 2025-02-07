@@ -1,5 +1,6 @@
 #include "defines.h"
 #include "tablero.h"
+#include "victoria.h"
 
 bool ganador(char tablero[TAM][TAM], char jugador) {
 	for (int i = 0; i < TAM; i++) {
@@ -18,4 +19,18 @@ bool ganador(char tablero[TAM][TAM], char jugador) {
 		return true;
 	}
 	return false;
+}
+
+bool empate(char tablero[TAM][TAM]) {
+	bool lleno = true;
+
+	for (int i = 0; i < TAM; i++) {
+		for (int j = 0; j < TAM; j++) {
+			if (tablero[i][j] == ' ') {
+				lleno = false;
+			}
+		}
+	}
+
+	return lleno;
 }
