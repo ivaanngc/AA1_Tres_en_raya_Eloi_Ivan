@@ -1,1 +1,0 @@
-# AA1_Tres_en_raya_Eloi_Ivan

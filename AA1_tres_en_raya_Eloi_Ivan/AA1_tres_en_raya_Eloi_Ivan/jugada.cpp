@@ -9,7 +9,7 @@ void jugada(char tablero[TAM][TAM]) {
 
     while (!jugada) {
         int X, Y;
-        std::cout << "Dime la posicion de columnas (Y): ";
+        std::cout << "Dime la posicion de la columna (Y): ";
         std::cin >> Y;
         while (!std::cin.good() || (Y < 0 || Y > TAM - 1)) {
             std::cin.clear();
@@ -17,7 +17,7 @@ void jugada(char tablero[TAM][TAM]) {
             std::cout << "Introduce una posicion valida: ";
             std::cin >> Y;
         }
-        std::cout << "Dime la posicion de filas (X): ";
+        std::cout << "Dime la posicion de la fila (X): ";
         std::cin >> X;
         while (!std::cin.good() || (X < 0 || X > TAM - 1)) {
             std::cin.clear();

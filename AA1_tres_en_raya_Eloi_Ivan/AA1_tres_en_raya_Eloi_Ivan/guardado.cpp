@@ -35,7 +35,9 @@ void guardarPartida(char tablero[TAM][TAM]) {
 	while (ficheroExiste(saveName) || respuesta == "si") {
 
 		do {
-			std::cout << "\nQuieres sobreescribir el fichero? (si/no)\n";
+			std::cout << "\nQuieres sobreescribir la partida existente? (si/no)\n";
+			std::cin.clear();
+			std::cin.ignore();
 			std::getline(std::cin, respuesta);
 		} while (respuesta != "si" || respuesta != "no");
 		if (respuesta == "no") {

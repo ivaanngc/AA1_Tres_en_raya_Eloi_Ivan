@@ -125,6 +125,7 @@ int main() {
             break;
 
         case 3:
+            std::cout << "Juego terminado\n";
             juego = false;
             break;
         }
