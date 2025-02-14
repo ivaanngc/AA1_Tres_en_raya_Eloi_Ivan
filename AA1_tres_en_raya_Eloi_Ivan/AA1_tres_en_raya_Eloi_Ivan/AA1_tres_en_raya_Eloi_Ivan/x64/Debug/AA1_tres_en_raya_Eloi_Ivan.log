@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\franl\Desktop\AA1_tres_en_raya_Eloi_Ivan\AA1_tres_en_raya_Eloi_Ivan\AA1_tres_en_raya_Eloi_Ivan\main.cpp(8,15): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  AA1_tres_en_raya_Eloi_Ivan.vcxproj -> C:\Users\franl\Desktop\AA1_tres_en_raya_Eloi_Ivan\AA1_tres_en_raya_Eloi_Ivan\x64\Debug\AA1_tres_en_raya_Eloi_Ivan.exe
