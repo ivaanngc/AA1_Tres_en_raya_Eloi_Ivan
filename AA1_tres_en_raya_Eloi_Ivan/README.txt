@@ -1,1 +1,0 @@
-Hay varias partidas guardadas
